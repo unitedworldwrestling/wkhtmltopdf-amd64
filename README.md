@@ -8,11 +8,13 @@ Binaries for __Microsoft Windows__, also installable with composer, can be found
 
 Binaries for __CentOS 7__, also installable with composer, can be found here: [github.com/rvanlaak/wkhtmltopdf-amd64-centos7](https://github.com/rvanlaak/wkhtmltopdf-amd64-centos7)
 
+This binary is downloaded from [https://builds.wkhtmltopdf.org/0.12.6-dev/](https://builds.wkhtmltopdf.org/0.12.6-dev/)
+
 ## Installation
 
 _Hint_:
 The version of the binary is equal to the git tag.
-To install the latest version, use '0.12.4'.
+To install the latest version, use '0.12.6dev'.
 
 ### Packagist
 
@@ -20,11 +22,11 @@ This package can be found on [Packagist](http://packagist.org) and installed wit
 
 Require the package for _i386_ with:
 
-    php composer.phar require h4cc/wkhtmltopdf-i386 "0.12.4"
+    php composer.phar require h4cc/wkhtmltopdf-i386 "0.12.6dev"
 
 And for _amd64_ with:
 
-    php composer.phar require h4cc/wkhtmltopdf-amd64 "0.12.4"
+    php composer.phar require h4cc/wkhtmltopdf-amd64 "0.12.6dev"
 
 The binary will then be located at:
 
